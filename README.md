@@ -1,6 +1,6 @@
 # Proxmox cloud-init tools
 ShellScript tools to deploy VM cloud-init in Proxmox Virtual Environment (PVE)
-This Script Edited / Update by Nanda Anubis and Testing
+This Script Modified / Update by Nanda Anubis and Testing
 
 ### Supported PVE Versions
 - PVE 6 *Not tested*
