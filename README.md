@@ -37,7 +37,10 @@ git clone https://github.com/nandaanubis/deploy-cloudimage-proxmox-v2.git
 ```
 cd deploy-cloudimage-proxmox-v2
 ```
-3. bash deploy.sh
+3. Run Sscript 
+```
+bash deploy.sh
+```
 4. Follow instructions on screen.
 
 ### Contributors
