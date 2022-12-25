@@ -1,11 +1,11 @@
 # Proxmox cloud-init tools
 ShellScript tools to deploy VM cloud-init in Proxmox Virtual Environment (PVE)
+This Script Edited / Update by Nanda Anubis and Testing
 
 ### Supported PVE Versions
 - PVE 6 *Not tested*
-- PVE 6.1 **[OK] - Tested**
-- PVE 6.2 **[OK] - Tested**
-- PVE 6.3 **[OK] - Tested**
+- PVE 7.2 **[OK] - Tested**
+- PVE 7.3 **[OK] - Tested**
 
 ### Features
 1. Auto cloud images download
@@ -15,17 +15,13 @@ ShellScript tools to deploy VM cloud-init in Proxmox Virtual Environment (PVE)
 - Ubuntu Server 20.04 LTS - Focal
 - OpenSUSE LEAP 15.2
 2. Set VM Hostname
-3. Set VM Description
-4. Memory (Available to select 2GB,4GB,8GB and 16GB)
-5. CPU Cores
-6. CPU Sockets
-7. Storage destination (Local, NFS, LVM/LVM-Thin, etc)
-8. Define user, by default root user is defined. If you change to another, this user can be used with sudo powers without password;
-9. Insert SSH authorized keys to user defined on step 8 **Very important**;
-10. Select bridge network;
-11. Select Static/IP or DHCP usage;
-12. Define uniq VMID;
-13. Can start or not, VM after deployment.
+3. Memory (Available to select 2GB,4GB,8GB and 16GB)
+4. CPU Cores
+5. Storage destination (Local, NFS, LVM/LVM-Thin, etc)
+6. Select bridge network;
+7. Select Static/IP or DHCP usage;
+8. Define uniq VMID;
+9. Can start or not, VM after deployment.
 
 ### Usage
 1. Login on your Proxmox VE server over SSH or Console Shell
